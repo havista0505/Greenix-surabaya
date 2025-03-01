@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenix - Katalis Ramah Lingkungan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Greenix</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#katalog">Katalog</a></li>
+                <li><a href="#pesan">Pesan</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Selamat Datang di Greenix</h2>
+        <p>Katalis bubuk dari sampah plastik HDPE dengan ZnO, solusi ramah lingkungan.</p>
+        <img src="greenix_design.png" alt="Desain Greenix" width="80%">
+    </section>
+
+    <section id="katalog">
+        <h2>Katalog Produk</h2>
+        <div class="produk">
+            <img src="produk1.jpg" alt="Katalis Greenix">
+            <h3>Katalis Greenix 500g</h3>
+            <p>Rp 150.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+        <div class="produk">
+            <img src="produk2.jpg" alt="Katalis Greenix">
+            <h3>Katalis Greenix 1kg</h3>
+            <p>Rp 280.000</p>
+            <button>Beli Sekarang</button>
+        </div>
+    </section>
+
+    <section id="pesan">
+        <h2>Formulir Pemesanan</h2>
+        <form>
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" required>
+            
+            <label for="alamat">Alamat:</label>
+            <input type="text" id="alamat" required>
+
+            <label for="lokasi">Lokasi Pengiriman:</label>
+            <select id="lokasi">
+                <option>Pilih Kota</option>
+                <option>Jakarta</option>
+                <option>Surabaya</option>
+                <option>Bandung</option>
+                <option>Yogyakarta</option>
+                <option>Medan</option>
+                <option>Makassar</option>
+            </select>
+
+            <label for="produk">Pilih Produk:</label>
+            <select id="produk">
+                <option>Katalis Greenix 500g</option>
+                <option>Katalis Greenix 1kg</option>
+            </select>
+
+            <button type="submit">Pesan Sekarang</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Greenix | Kontak: <a href="mailto:info@greenix.com">info@greenix.com</a></p>
+    </footer>
+</body>
+</html>
